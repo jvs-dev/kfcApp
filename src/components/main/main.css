@@ -6,6 +6,7 @@
     justify-content: space-between;
     padding: 0px 80px;
 }
+
 .main__div {
     width: calc(50% - 20px);
     display: flex;
@@ -13,11 +14,12 @@
     flex-direction: column;
     animation: initText 1.5s;
 }
+
 .main__p {
     font-family: "Ubuntu", sans-serif;
     color: var(--white);
     font-size: 18px;
-    font-weight: 400;    
+    font-weight: 400;
     margin: 20px 0px 0px 0px;
 }
 
@@ -26,10 +28,10 @@
     color: var(--black);
     background: var(--white);
     font-size: 18px;
-    font-weight: 500;    
+    font-weight: 500;
     cursor: pointer;
     outline-width: 0px;
-    border: solid 2px transparent;    
+    border: solid 2px transparent;
     padding: 16px 48px;
     border-radius: 100px;
     margin: 20px 0px 0px 0px;
@@ -38,8 +40,24 @@
 
 .main__btn:hover {
     background: transparent;
-    border: solid 2px var(--white);    
+    border: solid 2px var(--white);
     color: var(--white);
+}
+
+#mainImage1 {
+    display: unset;
+}
+
+#mainImage2 {
+    display: none;
+}
+
+#mainImage3 {
+    display: none;
+}
+
+#mainImage4 {
+    display: none;
 }
 
 .main__img {
@@ -55,6 +73,7 @@
         max-height: 10vh;
         rotate: 45deg;
     }
+
     100% {
         opacity: 1;
         max-height: 54vh;
@@ -64,9 +83,10 @@
 
 @keyframes initText {
     0% {
-        opacity: 0;        
+        opacity: 0;
     }
+
     100% {
-        opacity: 1;        
+        opacity: 1;
     }
 }
