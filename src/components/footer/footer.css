@@ -1,0 +1,86 @@
+.footer {    
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 80px;
+}
+
+.footer__ul {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.footer__li a {
+    color: var(--white);
+    text-decoration: none;
+    cursor: pointer;    
+    font-size: 26px;
+}
+
+.footer__li ion-icon {
+    transition: 0.3s;
+}
+
+.footer__li:hover ion-icon {
+    transform: translateY(-10px);
+}
+
+.footer__div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.footer__div--2 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 0px 0px 10px 0px;
+}
+
+.footer__rule {
+    width: 45px;
+    height: 1.5px;
+    background: var(--white);
+    margin: 0px 15px 0px 0px;
+}
+
+.footer__span {
+    font-family: "Ubuntu", sans-serif;
+    color: var(--white);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.footer__div--3 {
+    gap: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer__btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: transparent;
+    color: var(--white);
+    font-size: 30px;
+    height: 50px;
+    width: 50px;
+    border-radius: 2px;
+    border: solid 2px var(--white);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.footer__btn:hover {
+    color: var(--red);
+    background: var(--white);
+    border: solid 2px transparent;
+}

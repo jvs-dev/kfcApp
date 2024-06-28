@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" href="src/assets/logo.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="src/styles/reset.css">
+  <link rel="stylesheet" href="src/styles/base.css">
+  <link rel="stylesheet" href="src/components/header/header.css">
+  <link rel="stylesheet" href="src/components/titles/titles.css">
+  <link rel="stylesheet" href="src/components/main/main.css">
+  <link rel="stylesheet" href="src/components/footer/footer.css">
+  <link rel="stylesheet" href="src/components/menu/menu.css">
+  <link rel="stylesheet" href="src/styles/mobile.css">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+    rel="stylesheet">
+  <title>KFC</title>
+</head>
+
+<body>
+  <section class="menuSection" id="menu">
+    <ul class="menuSection__ul">
+      <li class="menuSection__li"><a href="#">Home</a></li>
+      <li class="menuSection__li"><a href="#">Menu</a></li>
+      <li class="menuSection__li"><a href="#">About</a></li>
+      <li class="menuSection__li"><a href="#">Contact</a></li>
+    </ul>
+  </section>
+  <header class="header">
+    <img class="logo" src="src/assets/logo.png" alt="Logo">
+    <ul class="header__ul">
+      <li class="header__li"><a href="#">Home</a></li>
+      <li class="header__li"><a href="#">Menu</a></li>
+      <li class="header__li"><a href="#">About</a></li>
+      <li class="header__li"><a href="#">Contact</a></li>
+    </ul>
+    <div class="header__menuToggle" id="menuToggle"></div>
+  </header>
+  <main class="main">
+    <div class="main__div">
+      <h1 class="main__h1">Its Finger<br>Lickin <strong>Good.</strong></h1>
+      <p class="main__p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et earum natus similique rerum.
+        Delectus quod accusamus atque dignissimos vel numquam? Iusto voluptatum reiciendis enim eum perspiciatis
+        praesentium maxime quos amet.</p>
+      <button class="main__btn">Order Now</button>
+    </div>
+    <img src="src/assets/mainImage1.png" class="main__img" id="mainImage" alt="">
+  </main>
+  <footer class="footer">
+    <ul class="footer__ul">
+      <li class="footer__li"><a href="#"><ion-icon name="logo-facebook"></ion-icon></a></li>
+      <li class="footer__li"><a href="#"><ion-icon name="logo-twitter"></ion-icon></a></li>
+      <li class="footer__li"><a href="#"><ion-icon name="logo-instagram"></ion-icon></a></li>
+    </ul>
+    <div class="footer__div">
+      <div class="footer__div--2">
+        <div class="footer__rule"></div>
+        <span class="footer__span">Always Fresh</span>
+      </div>
+      <div class="footer__div--3">
+        <button class="footer__btn" id="previousImg"><ion-icon name="chevron-back-outline"></ion-icon></button>
+        <button class="footer__btn" id="nextImg"><ion-icon name="chevron-forward-outline"></ion-icon></button>
+      </div>
+    </div>
+  </footer>
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  <script type="module" src="src/scripts/alterImage.js"></script>
+  <script type="module" src="src/scripts/menu.js"></script>
+</body>
+
+</html>
